@@ -1,5 +1,29 @@
-.App {
-  padding: 10rem;
+@media (max-width: 1200px) {
+  html, body {
+    overflow-y: hidden;
+  }
+  .App {
+    height: 100vh;
+  }
+  .App > div {
+    height: 100%;
+  }
+  .react-terminal-wrapper {
+    padding: 50px 8px 4px !important;
+    height: 100%;
+  }
+  .react-terminal-wrapper::after {
+    top: 13px !important;
+    left: 30px !important;
+  }
+  .react-terminal-wrapper .react-terminal {
+    height: 100% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .App {
+    padding: 10rem;
+  }
 }
 
 .App-logo {
