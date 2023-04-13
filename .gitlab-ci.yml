@@ -1,7 +1,5 @@
 emscripten:
-  image: alpine:3.9
-  before_script:
-    - apk add emscripten --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing
+  image: emscripten/emsdk
   stage: compile-c
   script:
     - mkdir build

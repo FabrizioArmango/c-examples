@@ -3,7 +3,7 @@
 ./dev/linux/start.sh
 ```
 
-prompt(/copy paste) into terminal: 
+prompt(/copy paste) into terminal:
 ```
 add_new(Bozhi, Lach);
 add_new(Armango, Fabrizio);
@@ -14,3 +14,10 @@ add_new(Foo, Bar);
 print_all();
 sort();
 ```
+
+
+### Roadmap
+- [ ] move to GitLab
+- [ ] setup CI/CD
+- [ ] add new commands
+- [ ] add suggestions while typing
